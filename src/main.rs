@@ -29,7 +29,7 @@ fn send(event_type: &EventType) {
 
 fn callback(event: Event) {
     // Just a random magic number
-    let delay = time::Duration::from_millis(27);
+    let delay = time::Duration::from_millis(300);
     let last = time::Duration::from_millis(100);
 
     if event.event_type == EventType::KeyRelease(rdev::Key::KeyA) {
