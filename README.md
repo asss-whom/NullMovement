@@ -28,7 +28,6 @@ pip intall uv
 uv sync
 
 # or
-
 pip install -r requirements.txt
 
 ```
