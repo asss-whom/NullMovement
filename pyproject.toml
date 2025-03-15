@@ -1,0 +1,10 @@
+[project]
+name = "nullmovement"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "pywin32>=309",
+    "rich>=13.9.4",
+]

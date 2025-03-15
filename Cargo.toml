@@ -1,7 +1,0 @@
-[package]
-name = "null_movement"
-version = "0.1.0"
-edition = "2021"
-
-[dependencies]
-rdev = "0.5.3"
