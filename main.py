@@ -12,7 +12,7 @@ REACTION_TIME = 0.2  # seconds
 
 def main():
     log.info("✅ Program initialized successfully.")
-    log.info('⌨️ Press the "Esc" key to exit')
+    log.info('🛑 Press the "Esc" key to exit')
 
     w = bool(win32api.GetAsyncKeyState(0x57) & 0x8000)
     a = bool(win32api.GetAsyncKeyState(0x41) & 0x8000)
